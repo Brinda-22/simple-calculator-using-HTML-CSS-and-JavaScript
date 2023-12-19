@@ -1,0 +1,55 @@
+.calculator {
+    padding: 10px;
+    border-radius: 1em;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    background-image: linear-gradient(rgb(0, 0, 0), lightblue,black);
+    box-shadow: rgb(128, 128, 128) 0px 10px 20px, rgb(128, 128, 128) 0px 6px 6px;
+}
+
+.display-box {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #dcdbe1;
+    border: solid black 0.5px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 100%;
+    height: 65%;
+}
+
+input[type=button] {
+    font-family: 'Orbitron', sans-serif;
+    width: 100%;
+    border-radius: 5px;
+    height: 70%;
+    outline: none;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+input:active[type=button] {
+    background: rgb(192, 192, 192);
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+
+/* Bootstrap styles for buttons */
+input[type=button].btn {
+    padding: 10px;
+    margin: 5px;
+}
+
+input[type=button].btn-primary {
+    background-color: rgb(128, 128, 255);
+    color: rgb(0, 0, 0);
+    border: solid black 0.5px;
+}
+
+input[type=button].btn-primary:active {
+    background: rgb(192, 192, 192);
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
